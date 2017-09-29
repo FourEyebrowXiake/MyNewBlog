@@ -1,31 +1,17 @@
 [
     {
-        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+        "componentChunkName": "component---cache-dev-404-page-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "offline-plugin-app-shell-fallback.json",
-        "path": "/offline-plugin-app-shell-fallback/"
+        "jsonName": "dev-404-page.json",
+        "path": "/dev-404-page/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "the-birth-of-movable-type.json",
-        "path": "/The birth of movable type/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "layout": "index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "javascript中的多态和继承.json",
-        "path": "/Javascript中的多态和继承/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "layout": "index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "初识动态规划.json",
-        "path": "/初识动态规划/"
+        "jsonName": "人工智能狂潮摘记.json",
+        "path": "/人工智能狂潮摘记/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
@@ -38,8 +24,22 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "人工智能狂潮摘记.json",
-        "path": "/人工智能狂潮摘记/"
+        "jsonName": "javascript中的多态和继承.json",
+        "path": "/Javascript中的多态和继承/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "the-birth-of-movable-type.json",
+        "path": "/The birth of movable type/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "初识动态规划.json",
+        "path": "/初识动态规划/"
     },
     {
         "componentChunkName": "component---src-pages-index-js",
