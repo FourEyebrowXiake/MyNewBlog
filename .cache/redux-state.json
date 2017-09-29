@@ -1,0 +1,2730 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0498fa0a7b654e4c10945bf54c7cb667",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ffa35e48dc53f73389c1b07daca86fb9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "dcec5177762b8bce1ab95aac02cae395",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a51438d2fc39b1f0a795e13db0226e97",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cf227831e948f7d24c29432d8d833f57",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b47c7a1c61fa83a5b984afdc808cddf1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages",
+        "name": "pages"
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.1",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7f0b18b98ffc79c35772f099f10b25b3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.12",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.13",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 750,
+              "linkImagesToOriginal": false,
+              "wrapperStyle": "margin-bottom: 1.0725rem;",
+              "backgroundColor": "white",
+              "pathPrefix": ""
+            },
+            "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-responsive-iframe",
+            "id": "Plugin gatsby-remark-responsive-iframe",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "1.4.7",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": "margin-bottom: 1.0725rem"
+            },
+            "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-prismjs",
+            "id": "Plugin gatsby-remark-prismjs",
+            "name": "gatsby-remark-prismjs",
+            "version": "1.2.8",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-copy-linked-files",
+            "id": "Plugin gatsby-remark-copy-linked-files",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "1.5.7",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-smartypants",
+            "id": "Plugin gatsby-remark-smartypants",
+            "name": "gatsby-remark-smartypants",
+            "version": "1.4.7",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-smartypants"
+          }
+        ]
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.12",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^2.1.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "915c4c63160bbe2e85df7f5fe0579254",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.13",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 750,
+        "linkImagesToOriginal": false,
+        "wrapperStyle": "margin-bottom: 1.0725rem;",
+        "backgroundColor": "white",
+        "pathPrefix": ""
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.13",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark",
+          "image",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.8"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "95ea891ed8eb8a221d031094451bc3ac",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-responsive-iframe": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-responsive-iframe",
+      "id": "Plugin gatsby-remark-responsive-iframe",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "1.4.7",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": "margin-bottom: 1.0725rem"
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "1.4.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "05b29f3e39935f558d36678acc853dce",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-prismjs": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-prismjs",
+      "id": "Plugin gatsby-remark-prismjs",
+      "name": "gatsby-remark-prismjs",
+      "version": "1.2.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "1.2.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f38029486d1ad6a6f3d6af72cda043e6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-copy-linked-files",
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "1.5.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "1.5.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4b55daae74f2427f940c7a5fd4f54879",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-smartypants": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-smartypants",
+      "id": "Plugin gatsby-remark-smartypants",
+      "name": "gatsby-remark-smartypants",
+      "version": "1.4.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-remark-smartypants",
+      "packageJson": {
+        "name": "gatsby-remark-smartypants",
+        "description": "Use retext-smartypants to auto-enhance typography of markdown",
+        "version": "1.4.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "retext",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-smartypants",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8a87f47289f69c9359aed8e71f6d726a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.6",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sharp",
+          "image"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.6.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "75a3da2182993b96f7702a09a7c6e5e6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.12",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "41d6601470faecb6fb0a7f0950e07e86",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.17.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fa7bd10410027875c313a88d6e9852b1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.7",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": ""
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "be86a18dd2a7690248ef543bd7190d7f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "1.0.9",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "1.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "sw-precache",
+            "version": "^5.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "14a544fe17ccaf1e6a53c8db17983533",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9b9a699c54bc42576465db68b7292f27",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/fourfish/Desktop/gatsby-starter-bootstrap",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "504cb78ac01482fb5749682b837157d3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap",
+      "packageJson": {
+        "name": "gatsby-starter-bootstrap",
+        "description": "Simple starter for Gatsby",
+        "version": "1.9.36",
+        "main": "n/a",
+        "keywords": [
+          "gatsby",
+          "gatstrap",
+          "starter"
+        ],
+        "author": "Futoshi Iwashita <jaxx2104@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "bootstrap",
+            "version": "^4.0.0-beta"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.36"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.16"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.7"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^1.0.7"
+          },
+          {
+            "name": "gatsby-plugin-nprogress",
+            "version": "^1.0.7"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "gatsby-plugin-preact",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.6"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.12"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.7"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^1.5.7"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.11"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^1.2.8"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "^1.4.7"
+          },
+          {
+            "name": "gatsby-remark-smartypants",
+            "version": "^1.4.7"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.4.12"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.7"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.5"
+          },
+          {
+            "name": "jquery",
+            "version": "^3.2.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "popper.js",
+            "version": "^1.12.5"
+          },
+          {
+            "name": "react-lazyload",
+            "version": "^2.2.7"
+          },
+          {
+            "name": "react-responsive-grid",
+            "version": "^0.3.4"
+          },
+          {
+            "name": "react-tap-event-plugin",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.5"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "animate.css",
+            "version": "^3.5.2"
+          },
+          {
+            "name": "babel-eslint",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "devicon",
+            "version": "https://github.com/konpa/devicon.git#v2.2"
+          },
+          {
+            "name": "eslint",
+            "version": "^4.7.0"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "^2.5.0"
+          },
+          {
+            "name": "eslint-plugin-prettier",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.3.0"
+          },
+          {
+            "name": "font-awesome",
+            "version": "^4.7.0"
+          },
+          {
+            "name": "gh-pages",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "husky",
+            "version": "^0.14.3"
+          },
+          {
+            "name": "lint-staged",
+            "version": "^4.2.1"
+          },
+          {
+            "name": "moment",
+            "version": "^2.18.1"
+          },
+          {
+            "name": "normalize.css",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "striptags",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "textlint",
+            "version": "^8.2.1"
+          },
+          {
+            "name": "textlint-rule-preset-ja-spacing",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "textlint-rule-preset-japanese",
+            "version": "^1.3.4"
+          },
+          {
+            "name": "wowjs",
+            "version": "^1.1.3"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8b36d783079b8cc163259613d53f5457",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "四条眉毛的博客",
+        "description": "I'm Lin Jin , a web developer and a travel enthusiasts. My target is to write clean and efficient code, to solve poblems on the web and to learn something more. ",
+        "url": "",
+        "author": "Lin Jin",
+        "twitter": "四条眉毛"
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2017-09-29T08:57:10.929Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f850d113f9804406bd299074d35d8bc8",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/categories/index.jsx absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/categories/index.jsx absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "31c7016f16725f57bd2d4786de0766d2",
+        "mediaType": "text/jsx",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/categories/index.jsx",
+      "relativePath": "categories/index.jsx",
+      "extension": "jsx",
+      "size": 2493,
+      "prettySize": "2.49 kB",
+      "modifiedTime": "2017-09-29T02:46:37.000Z",
+      "accessTime": "2017-09-29T08:43:47.000Z",
+      "changeTime": "2017-09-29T02:46:37.000Z",
+      "birthTime": "2017-09-28T07:39:21.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/categories",
+      "base": "index.jsx",
+      "ext": ".jsx",
+      "name": "index",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14450946,
+      "blocks": 8,
+      "atimeMs": 1506674627000,
+      "mtimeMs": 1506653197000,
+      "ctimeMs": 1506653197000,
+      "birthtimeMs": 1506584361000,
+      "atime": "2017-09-29T08:43:47.000Z",
+      "mtime": "2017-09-29T02:46:37.000Z",
+      "ctime": "2017-09-29T02:46:37.000Z",
+      "birthtime": "2017-09-28T07:39:21.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/robots.txt absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/robots.txt absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b6216d61c03e6ce0c9aea6ca7808f7ca",
+        "mediaType": "text/plain",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/robots.txt",
+      "relativePath": "robots.txt",
+      "extension": "txt",
+      "size": 24,
+      "prettySize": "24 B",
+      "modifiedTime": "2017-09-27T09:06:06.000Z",
+      "accessTime": "2017-09-29T08:43:47.000Z",
+      "changeTime": "2017-09-27T09:06:06.000Z",
+      "birthTime": "2017-09-27T09:06:06.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages",
+      "base": "robots.txt",
+      "ext": ".txt",
+      "name": "robots",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14371447,
+      "blocks": 8,
+      "atimeMs": 1506674627000,
+      "mtimeMs": 1506503166000,
+      "ctimeMs": 1506503166000,
+      "birthtimeMs": 1506503166000,
+      "atime": "2017-09-29T08:43:47.000Z",
+      "mtime": "2017-09-27T09:06:06.000Z",
+      "ctime": "2017-09-27T09:06:06.000Z",
+      "birthtime": "2017-09-27T09:06:06.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/.DS_Store absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "66af4da61bda53a10e2176c1490f4982",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/.DS_Store",
+      "relativePath": ".DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2017-09-28T09:27:51.000Z",
+      "accessTime": "2017-09-29T08:43:47.000Z",
+      "changeTime": "2017-09-28T09:27:51.000Z",
+      "birthTime": "2017-09-28T04:18:06.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14441853,
+      "blocks": 16,
+      "atimeMs": 1506674627000,
+      "mtimeMs": 1506590871000,
+      "ctimeMs": 1506590871000,
+      "birthtimeMs": 1506572286000,
+      "atime": "2017-09-29T08:43:47.000Z",
+      "mtime": "2017-09-28T09:27:51.000Z",
+      "ctime": "2017-09-28T09:27:51.000Z",
+      "birthtime": "2017-09-28T04:18:06.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/index.js absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d9659669ab3cadc037678b0e6696a209",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 2205,
+      "prettySize": "2.21 kB",
+      "modifiedTime": "2017-09-29T07:21:08.000Z",
+      "accessTime": "2017-09-29T08:43:47.000Z",
+      "changeTime": "2017-09-29T07:21:08.000Z",
+      "birthTime": "2017-09-27T09:06:06.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14371444,
+      "blocks": 8,
+      "atimeMs": 1506674627000,
+      "mtimeMs": 1506669668000,
+      "ctimeMs": 1506669668000,
+      "birthtimeMs": 1506503166000,
+      "atime": "2017-09-29T08:43:47.000Z",
+      "mtime": "2017-09-29T07:21:08.000Z",
+      "ctime": "2017-09-29T07:21:08.000Z",
+      "birthtime": "2017-09-27T09:06:06.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/1.png absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/1.png absPath of file",
+      "children": [
+        "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/1.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a8c122fad8f0568f52f8b285f8ca4393",
+        "mediaType": "image/png",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/1.png",
+      "relativePath": "articles/Javascript中的多态和继承/1.png",
+      "extension": "png",
+      "size": 62050,
+      "prettySize": "62 kB",
+      "modifiedTime": "2017-09-22T02:10:45.000Z",
+      "accessTime": "2017-09-29T08:43:47.000Z",
+      "changeTime": "2017-09-22T02:11:58.000Z",
+      "birthTime": "2017-09-22T02:10:45.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承",
+      "base": "1.png",
+      "ext": ".png",
+      "name": "1",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 13739020,
+      "blocks": 128,
+      "atimeMs": 1506674627000,
+      "mtimeMs": 1506046245000,
+      "ctimeMs": 1506046318000,
+      "birthtimeMs": 1506046245000,
+      "atime": "2017-09-29T08:43:47.000Z",
+      "mtime": "2017-09-22T02:10:45.000Z",
+      "ctime": "2017-09-22T02:11:58.000Z",
+      "birthtime": "2017-09-22T02:10:45.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/categories/style.scss absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/categories/style.scss absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c949fc4e6b0db5b3b03f8f298198d327",
+        "mediaType": "text/x-scss",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/categories/style.scss",
+      "relativePath": "categories/style.scss",
+      "extension": "scss",
+      "size": 112,
+      "prettySize": "112 B",
+      "modifiedTime": "2017-09-29T02:49:53.000Z",
+      "accessTime": "2017-09-29T08:43:47.000Z",
+      "changeTime": "2017-09-29T02:49:53.000Z",
+      "birthTime": "2017-09-28T09:49:18.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/categories",
+      "base": "style.scss",
+      "ext": ".scss",
+      "name": "style",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14455388,
+      "blocks": 8,
+      "atimeMs": 1506674627000,
+      "mtimeMs": 1506653393000,
+      "ctimeMs": 1506653393000,
+      "birthtimeMs": 1506592158000,
+      "atime": "2017-09-29T08:43:47.000Z",
+      "mtime": "2017-09-29T02:49:53.000Z",
+      "ctime": "2017-09-29T02:49:53.000Z",
+      "birthtime": "2017-09-28T09:49:18.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/profile/index.jsx absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/profile/index.jsx absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5a6f8db1083a789697a06e0e56d97553",
+        "mediaType": "text/jsx",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/profile/index.jsx",
+      "relativePath": "profile/index.jsx",
+      "extension": "jsx",
+      "size": 6256,
+      "prettySize": "6.26 kB",
+      "modifiedTime": "2017-09-29T06:57:16.000Z",
+      "accessTime": "2017-09-29T08:43:47.000Z",
+      "changeTime": "2017-09-29T06:57:16.000Z",
+      "birthTime": "2017-09-27T09:06:06.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/profile",
+      "base": "index.jsx",
+      "ext": ".jsx",
+      "name": "index",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14371446,
+      "blocks": 16,
+      "atimeMs": 1506674627000,
+      "mtimeMs": 1506668236000,
+      "ctimeMs": 1506668236000,
+      "birthtimeMs": 1506503166000,
+      "atime": "2017-09-29T08:43:47.000Z",
+      "mtime": "2017-09-29T06:57:16.000Z",
+      "ctime": "2017-09-29T06:57:16.000Z",
+      "birthtime": "2017-09-27T09:06:06.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/index.md absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/index.md absPath of file",
+      "children": [
+        "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "30e54df63af058536e58f5f639cab513",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/index.md",
+      "relativePath": "articles/The birth of movable type/index.md",
+      "extension": "md",
+      "size": 17311,
+      "prettySize": "17.3 kB",
+      "modifiedTime": "2017-09-29T07:14:02.000Z",
+      "accessTime": "2017-09-29T08:43:47.000Z",
+      "changeTime": "2017-09-29T07:14:02.000Z",
+      "birthTime": "2017-09-27T09:06:06.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14371438,
+      "blocks": 40,
+      "atimeMs": 1506674627000,
+      "mtimeMs": 1506669242000,
+      "ctimeMs": 1506669242000,
+      "birthtimeMs": 1506503166000,
+      "atime": "2017-09-29T08:43:47.000Z",
+      "mtime": "2017-09-29T07:14:02.000Z",
+      "ctime": "2017-09-29T07:14:02.000Z",
+      "birthtime": "2017-09-27T09:06:06.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/Javascript中的多态和继承.md absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/Javascript中的多态和继承.md absPath of file",
+      "children": [
+        "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/Javascript中的多态和继承.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b5be1d3c683ef8b4528d48379fcdec5f",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/Javascript中的多态和继承.md",
+      "relativePath": "articles/Javascript中的多态和继承/Javascript中的多态和继承.md",
+      "extension": "md",
+      "size": 3767,
+      "prettySize": "3.77 kB",
+      "modifiedTime": "2017-09-29T07:14:47.000Z",
+      "accessTime": "2017-09-29T08:43:47.000Z",
+      "changeTime": "2017-09-29T07:14:47.000Z",
+      "birthTime": "2017-09-22T01:14:55.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承",
+      "base": "Javascript中的多态和继承.md",
+      "ext": ".md",
+      "name": "Javascript中的多态和继承",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 13738341,
+      "blocks": 8,
+      "atimeMs": 1506674627000,
+      "mtimeMs": 1506669287000,
+      "ctimeMs": 1506669287000,
+      "birthtimeMs": 1506042895000,
+      "atime": "2017-09-29T08:43:47.000Z",
+      "mtime": "2017-09-29T07:14:47.000Z",
+      "ctime": "2017-09-29T07:14:47.000Z",
+      "birthtime": "2017-09-22T01:14:55.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/.DS_Store absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5d52a4f862de5fac1efe2a96dc31a9c0",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/.DS_Store",
+      "relativePath": "articles/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2017-09-28T05:32:47.000Z",
+      "accessTime": "2017-09-29T08:43:47.000Z",
+      "changeTime": "2017-09-28T05:32:47.000Z",
+      "birthTime": "2017-09-28T04:18:01.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14441847,
+      "blocks": 16,
+      "atimeMs": 1506674627000,
+      "mtimeMs": 1506576767000,
+      "ctimeMs": 1506576767000,
+      "birthtimeMs": 1506572281000,
+      "atime": "2017-09-29T08:43:47.000Z",
+      "mtime": "2017-09-28T05:32:47.000Z",
+      "ctime": "2017-09-28T05:32:47.000Z",
+      "birthtime": "2017-09-28T04:18:01.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/初识动态规划.md absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/初识动态规划.md absPath of file",
+      "children": [
+        "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/初识动态规划.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ef5072525153361361d52ae8388b20c6",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/初识动态规划.md",
+      "relativePath": "articles/初识动态规划/初识动态规划.md",
+      "extension": "md",
+      "size": 6969,
+      "prettySize": "6.97 kB",
+      "modifiedTime": "2017-09-29T07:15:02.000Z",
+      "accessTime": "2017-09-29T08:43:47.000Z",
+      "changeTime": "2017-09-29T07:15:02.000Z",
+      "birthTime": "2017-09-16T15:07:30.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划",
+      "base": "初识动态规划.md",
+      "ext": ".md",
+      "name": "初识动态规划",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14443422,
+      "blocks": 16,
+      "atimeMs": 1506674627000,
+      "mtimeMs": 1506669302000,
+      "ctimeMs": 1506669302000,
+      "birthtimeMs": 1505574450000,
+      "atime": "2017-09-29T08:43:47.000Z",
+      "mtime": "2017-09-29T07:15:02.000Z",
+      "ctime": "2017-09-29T07:15:02.000Z",
+      "birthtime": "2017-09-16T15:07:30.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/.DS_Store absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "194577a7e20bdcc7afbb718f502c134c",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/.DS_Store",
+      "relativePath": "articles/前端校招会考察什么（一）/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2017-09-28T05:45:03.000Z",
+      "accessTime": "2017-09-29T08:43:47.000Z",
+      "changeTime": "2017-09-28T05:45:03.000Z",
+      "birthTime": "2017-09-28T05:45:03.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14445199,
+      "blocks": 16,
+      "atimeMs": 1506674627000,
+      "mtimeMs": 1506577503000,
+      "ctimeMs": 1506577503000,
+      "birthtimeMs": 1506577503000,
+      "atime": "2017-09-29T08:43:47.000Z",
+      "mtime": "2017-09-28T05:45:03.000Z",
+      "ctime": "2017-09-28T05:45:03.000Z",
+      "birthtime": "2017-09-28T05:45:03.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/1.jpg absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/1.jpg absPath of file",
+      "children": [
+        "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/1.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "531ac3d0c97e51a6ccee33bf7261b91d",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/1.jpg",
+      "relativePath": "articles/初识动态规划/1.jpg",
+      "extension": "jpg",
+      "size": 35118,
+      "prettySize": "35.1 kB",
+      "modifiedTime": "2017-09-22T03:22:01.000Z",
+      "accessTime": "2017-09-29T08:43:47.000Z",
+      "changeTime": "2017-09-28T05:30:06.000Z",
+      "birthTime": "2017-09-22T03:22:01.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划",
+      "base": "1.jpg",
+      "ext": ".jpg",
+      "name": "1",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14443403,
+      "blocks": 72,
+      "atimeMs": 1506674627000,
+      "mtimeMs": 1506050521000,
+      "ctimeMs": 1506576606000,
+      "birthtimeMs": 1506050521000,
+      "atime": "2017-09-29T08:43:47.000Z",
+      "mtime": "2017-09-22T03:22:01.000Z",
+      "ctime": "2017-09-28T05:30:06.000Z",
+      "birthtime": "2017-09-22T03:22:01.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/前端校招面试会考察什么.md absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/前端校招面试会考察什么.md absPath of file",
+      "children": [
+        "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/前端校招面试会考察什么.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4391d308ca8ae484d3e0ddc609bcc8cf",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/前端校招面试会考察什么.md",
+      "relativePath": "articles/前端校招会考察什么（一）/前端校招面试会考察什么.md",
+      "extension": "md",
+      "size": 9462,
+      "prettySize": "9.46 kB",
+      "modifiedTime": "2017-09-29T07:15:09.000Z",
+      "accessTime": "2017-09-29T08:43:47.000Z",
+      "changeTime": "2017-09-29T07:15:09.000Z",
+      "birthTime": "2017-09-22T07:44:01.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）",
+      "base": "前端校招面试会考察什么.md",
+      "ext": ".md",
+      "name": "前端校招面试会考察什么",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14441860,
+      "blocks": 24,
+      "atimeMs": 1506674627000,
+      "mtimeMs": 1506669309000,
+      "ctimeMs": 1506669309000,
+      "birthtimeMs": 1506066241000,
+      "atime": "2017-09-29T08:43:47.000Z",
+      "mtime": "2017-09-29T07:15:09.000Z",
+      "ctime": "2017-09-29T07:15:09.000Z",
+      "birthtime": "2017-09-22T07:44:01.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/1.png absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/1.png absPath of file",
+      "children": [
+        "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/1.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a8c122fad8f0568f52f8b285f8ca4393",
+        "mediaType": "image/png",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/1.png",
+      "relativePath": "articles/前端校招会考察什么（一）/1.png",
+      "extension": "png",
+      "size": 62050,
+      "prettySize": "62 kB",
+      "modifiedTime": "2017-09-22T02:10:45.000Z",
+      "accessTime": "2017-09-29T08:43:47.000Z",
+      "changeTime": "2017-09-28T05:52:41.000Z",
+      "birthTime": "2017-09-22T02:10:45.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）",
+      "base": "1.png",
+      "ext": ".png",
+      "name": "1",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14445747,
+      "blocks": 128,
+      "atimeMs": 1506674627000,
+      "mtimeMs": 1506046245000,
+      "ctimeMs": 1506577961000,
+      "birthtimeMs": 1506046245000,
+      "atime": "2017-09-29T08:43:47.000Z",
+      "mtime": "2017-09-22T02:10:45.000Z",
+      "ctime": "2017-09-28T05:52:41.000Z",
+      "birthtime": "2017-09-22T02:10:45.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/人工智能狂潮摘记/《人工智能狂潮》摘记.md absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/人工智能狂潮摘记/《人工智能狂潮》摘记.md absPath of file",
+      "children": [
+        "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/人工智能狂潮摘记/《人工智能狂潮》摘记.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "add10cb6ceaeeee4f287302908e6b697",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/人工智能狂潮摘记/《人工智能狂潮》摘记.md",
+      "relativePath": "articles/人工智能狂潮摘记/《人工智能狂潮》摘记.md",
+      "extension": "md",
+      "size": 3870,
+      "prettySize": "3.87 kB",
+      "modifiedTime": "2017-09-29T07:14:54.000Z",
+      "accessTime": "2017-09-29T08:43:47.000Z",
+      "changeTime": "2017-09-29T07:14:54.000Z",
+      "birthTime": "2017-08-23T01:35:25.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/人工智能狂潮摘记",
+      "base": "《人工智能狂潮》摘记.md",
+      "ext": ".md",
+      "name": "《人工智能狂潮》摘记",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14443440,
+      "blocks": 8,
+      "atimeMs": 1506674627000,
+      "mtimeMs": 1506669294000,
+      "ctimeMs": 1506669294000,
+      "birthtimeMs": 1503452125000,
+      "atime": "2017-09-29T08:43:47.000Z",
+      "mtime": "2017-09-29T07:14:54.000Z",
+      "ctime": "2017-09-29T07:14:54.000Z",
+      "birthtime": "2017-08-23T01:35:25.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/1.png absPath of file >> ImageSharp": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/1.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/1.png absPath of file",
+      "internal": {
+        "contentDigest": "a8c122fad8f0568f52f8b285f8ca4393",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/1.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/1.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/1.jpg absPath of file",
+      "internal": {
+        "contentDigest": "531ac3d0c97e51a6ccee33bf7261b91d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/1.png absPath of file >> ImageSharp": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/1.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/1.png absPath of file",
+      "internal": {
+        "contentDigest": "a8c122fad8f0568f52f8b285f8ca4393",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/Gutenberg.jpg absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/Gutenberg.jpg absPath of file",
+      "children": [
+        "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/Gutenberg.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3e20438298edd3a3fa746766d803f379",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/Gutenberg.jpg",
+      "relativePath": "articles/The birth of movable type/Gutenberg.jpg",
+      "extension": "jpg",
+      "size": 155002,
+      "prettySize": "155 kB",
+      "modifiedTime": "2017-09-27T09:06:06.000Z",
+      "accessTime": "2017-09-29T08:43:48.000Z",
+      "changeTime": "2017-09-27T09:06:06.000Z",
+      "birthTime": "2017-09-27T09:06:06.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type",
+      "base": "Gutenberg.jpg",
+      "ext": ".jpg",
+      "name": "Gutenberg",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14371436,
+      "blocks": 304,
+      "atimeMs": 1506674628000,
+      "mtimeMs": 1506503166000,
+      "ctimeMs": 1506503166000,
+      "birthtimeMs": 1506503166000,
+      "atime": "2017-09-29T08:43:48.000Z",
+      "mtime": "2017-09-27T09:06:06.000Z",
+      "ctime": "2017-09-27T09:06:06.000Z",
+      "birthtime": "2017-09-27T09:06:06.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/2.png absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/2.png absPath of file",
+      "children": [
+        "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/2.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a5d674ffb3770162823f345840e2a0fa",
+        "mediaType": "image/png",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/2.png",
+      "relativePath": "articles/前端校招会考察什么（一）/2.png",
+      "extension": "png",
+      "size": 178224,
+      "prettySize": "178 kB",
+      "modifiedTime": "2017-09-28T05:45:10.000Z",
+      "accessTime": "2017-09-29T08:43:48.000Z",
+      "changeTime": "2017-09-28T05:50:45.000Z",
+      "birthTime": "2017-09-28T05:45:10.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）",
+      "base": "2.png",
+      "ext": ".png",
+      "name": "2",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14445213,
+      "blocks": 352,
+      "atimeMs": 1506674628000,
+      "mtimeMs": 1506577510000,
+      "ctimeMs": 1506577845000,
+      "birthtimeMs": 1506577510000,
+      "atime": "2017-09-29T08:43:48.000Z",
+      "mtime": "2017-09-28T05:45:10.000Z",
+      "ctime": "2017-09-28T05:50:45.000Z",
+      "birthtime": "2017-09-28T05:45:10.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/Gutenberg.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/Gutenberg.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/Gutenberg.jpg absPath of file",
+      "internal": {
+        "contentDigest": "3e20438298edd3a3fa746766d803f379",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/2.png absPath of file >> ImageSharp": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/2.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/2.png absPath of file",
+      "internal": {
+        "contentDigest": "a5d674ffb3770162823f345840e2a0fa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/Printing-press.png absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/Printing-press.png absPath of file",
+      "children": [
+        "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/Printing-press.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9ec265253f068855f00558a9be7f3e03",
+        "mediaType": "image/png",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/Printing-press.png",
+      "relativePath": "articles/The birth of movable type/Printing-press.png",
+      "extension": "png",
+      "size": 326701,
+      "prettySize": "327 kB",
+      "modifiedTime": "2017-09-27T09:06:06.000Z",
+      "accessTime": "2017-09-29T08:43:48.000Z",
+      "changeTime": "2017-09-27T09:06:06.000Z",
+      "birthTime": "2017-09-27T09:06:06.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type",
+      "base": "Printing-press.png",
+      "ext": ".png",
+      "name": "Printing-press",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14371437,
+      "blocks": 640,
+      "atimeMs": 1506674628000,
+      "mtimeMs": 1506503166000,
+      "ctimeMs": 1506503166000,
+      "birthtimeMs": 1506503166000,
+      "atime": "2017-09-29T08:43:48.000Z",
+      "mtime": "2017-09-27T09:06:06.000Z",
+      "ctime": "2017-09-27T09:06:06.000Z",
+      "birthtime": "2017-09-27T09:06:06.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"The Birth of Movable Type\"\ndate: \"2016-03-01T22:12:03.284Z\"\nlayout: post\npath: \"/The birth of movable type/\"\ncategories:\n  - Typography\ndescription: \"German inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible.<!--more-->\"\n---\n\nJohannes Gensfleisch zur Laden zum Gutenberg (c. 1398 – 1468) was a German blacksmith, goldsmith, printer, and publisher who introduced printing to Europe. His invention of mechanical movable type printing started the Printing Revolution and is widely regarded as the most important event of the modern period. It played a key role in the development of the Renaissance, Reformation, the Age of Enlightenment, and the Scientific revolution and laid the material basis for the modern knowledge-based economy and the spread of learning to the masses.\n\n<img height=\"310\" src=\"./Gutenberg.jpg\" alt=\"Gutenberg\">\n<figcaption>Johannes Gutenberg</figcaption>\n\nWith his invention of the printing press, Gutenberg was the first European to use movable type printing, in around 1439. Among his many contributions to printing are: the invention of a process for mass-producing movable type; the use of oil-based ink; and the use of a wooden printing press similar to the agricultural screw presses of the period. His truly epochal invention was the combination of these elements into a practical system that allowed the mass production of printed books and was economically viable for printers and readers alike. Gutenberg's method for making type is traditionally considered to have included a type metal alloy and a hand mould for casting type. The alloy was a mixture of lead, tin, and antimony that melted at a relatively low temperature for faster and more economical casting, cast well, and created a durable type.\n\nIn Renaissance Europe, the arrival of mechanical movable type printing introduced the era of mass communication which permanently altered the structure of society. The relatively unrestricted circulation of information — including revolutionary ideas — transcended borders, captured the masses in the Reformation and threatened the power of political and religious authorities; the sharp increase in literacy broke the monopoly of the literate elite on education and learning and bolstered the emerging middle class. Across Europe, the increasing cultural self-awareness of its people led to the rise of proto-nationalism, accelerated by the flowering of the European vernacular languages to the detriment of Latin's status as lingua franca. In the 19th century, the replacement of the hand-operated Gutenberg-style press by steam-powered rotary presses allowed printing on an industrial scale, while Western-style printing was adopted all over the world, becoming practically the sole medium for modern bulk printing.\n\nThe use of movable type was a marked improvement on the handwritten manuscript, which was the existing method of book production in Europe, and upon woodblock printing, and revolutionized European book-making. Gutenberg's printing technology spread rapidly throughout Europe and later the world.\n\nHis major work, the Gutenberg Bible (also known as the 42-line Bible), has been acclaimed for its high aesthetic and technical quality.\n\n## Printing Press\n\nAround 1439, Gutenberg was involved in a financial misadventure making polished metal mirrors (which were believed to capture holy light from religious relics) for sale to pilgrims to Aachen: in 1439 the city was planning to exhibit its collection of relics from Emperor Charlemagne but the event was delayed by one year due to a severe flood and the capital already spent could not be repaid. When the question of satisfying the investors came up, Gutenberg is said to have promised to share a “secret”. It has been widely speculated that this secret may have been the idea of printing with movable type. Also around 1439–1440, the Dutch Laurens Janszoon Coster came up with the idea of printing. Legend has it that the idea came to him “like a ray of light”.\n\n<img style=\"height: 310px;\" src=\"./Printing-press.png\" alt=\"Early Printing Press\">\n<figcaption>Early wooden printing press as depicted in 1568.</figcaption>\n\n\nUntil at least 1444 he lived in Strasbourg, most likely in the St. Arbogast parish. It was in Strasbourg in 1440 that Gutenberg is said to have perfected and unveiled the secret of printing based on his research, mysteriously entitled Kunst und Aventur (art and enterprise). It is not clear what work he was engaged in, or whether some early trials with printing from movable type may have been conducted there. After this, there is a gap of four years in the record. In 1448, he was back in Mainz, where he took out a loan from his brother-in-law Arnold Gelthus, quite possibly for a printing press or related paraphernalia. By this date, Gutenberg may have been familiar with intaglio printing; it is claimed that he had worked on copper engravings with an artist known as the Master of Playing Cards.\n\nBy 1450, the press was in operation, and a German poem had been printed, possibly the first item to be printed there. Gutenberg was able to convince the wealthy moneylender Johann Fust for a loan of 800 guilders. Peter Schöffer, who became Fust’s son-in-law, also joined the enterprise. Schöffer had worked as a scribe in Paris and is believed to have designed some of the first typefaces.\n\n>All that has been written to me about that marvelous man seen at Frankfurt is true. I have not seen complete Bibles but only a number of quires of various books of the Bible. The script was very neat and legible, not at all difficult to follow—your grace would be able to read it without effort, and indeed without glasses.\n\n—Future pope Pius II in a letter to Cardinal Carvajal, March 1455\n\nGutenberg's workshop was set up at Hof Humbrecht, a property belonging to a distant relative. It is not clear when Gutenberg conceived the Bible project, but for this he borrowed another 800 guilders from Fust, and work commenced in 1452. At the same time, the press was also printing other, more lucrative texts (possibly Latin grammars). There is also some speculation that there may have been two presses, one for the pedestrian texts, and one for the Bible. One of the profit-making enterprises of the new press was the printing of thousands of indulgences for the church, documented from 1454–55.\n\nIn 1455 Gutenberg completed his 42-line Bible, known as the Gutenberg Bible. About 180 copies were printed, most on paper and some on vellum.\n\n## Court Case\n\nSome time in 1456, there was a dispute between Gutenberg and Fust, and Fust demanded his money back, accusing Gutenberg of misusing the funds. Meanwhile the expenses of the Bible project had proliferated, and Gutenberg's debt now exceeded 20,000 guilders. Fust sued at the archbishop's court. A November 1455 legal document records that there was a partnership for a \"project of the books,\" the funds for which Gutenberg had used for other purposes, according to Fust. The court decided in favor of Fust, giving him control over the Bible printing workshop and half of all printed Bibles.\n\nThus Gutenberg was effectively bankrupt, but it appears he retained (or re-started) a small printing shop, and participated in the printing of a Bible in the town of Bamberg around 1459, for which he seems at least to have supplied the type. But since his printed books never carry his name or a date, it is difficult to be certain, and there is consequently a considerable scholarly debate on this subject. It is also possible that the large Catholicon dictionary, 300 copies of 754 pages, printed in Mainz in 1460, may have been executed in his workshop.\n\nMeanwhile, the Fust–Schöffer shop was the first in Europe to bring out a book with the printer's name and date, the Mainz Psalter of August 1457, and while proudly proclaiming the mechanical process by which it had been produced, it made no mention of Gutenberg.\n\n## Later Life\n\nIn 1462, during a conflict between two archbishops, Mainz was sacked by archbishop Adolph von Nassau, and Gutenberg was exiled. An old man by now, he moved to Eltville where he may have initiated and supervised a new printing press belonging to the brothers Bechtermünze.\n\nIn January 1465, Gutenberg's achievements were recognized and he was given the title Hofmann (gentleman of the court) by von Nassau. This honor included a stipend, an annual court outfit, as well as 2,180 litres of grain and 2,000 litres of wine tax-free. It is believed he may have moved back to Mainz around this time, but this is not certain.\n\n***\n\nGutenberg died in 1468 and was buried in the Franciscan church at Mainz, his contributions largely unknown. This church and the cemetery were later destroyed, and Gutenberg's grave is now lost.\n\nIn 1504, he was mentioned as the inventor of typography in a book by Professor Ivo Wittig. It was not until 1567 that the first portrait of Gutenberg, almost certainly an imaginary reconstruction, appeared in Heinrich Pantaleon's biography of famous Germans.\n\n## Printing Method With Movable Type\n\nGutenberg's early printing process, and what tests he may have made with movable type, are not known in great detail. His later Bibles were printed in such a way as to have required large quantities of type, some estimates suggesting as many as 100,000 individual sorts. Setting each page would take, perhaps, half a day, and considering all the work in loading the press, inking the type, pulling the impressions, hanging up the sheets, distributing the type, etc., it is thought that the Gutenberg–Fust shop might have employed as many as 25 craftsmen.\n\n![Movable metal type, and composing stick, descended from Gutenberg's press. Photo by Willi Heidelbach. Licensed under CC BY 2.5](./movable-type.jpg)\n\n*Movable metal type, and composing stick, descended from Gutenberg's press. Photo by Willi Heidelbach. Licensed under CC BY 2.5*\n\nGutenberg's technique of making movable type remains unclear. In the following decades, punches and copper matrices became standardized in the rapidly disseminating printing presses across Europe. Whether Gutenberg used this sophisticated technique or a somewhat primitive version has been the subject of considerable debate.\n\nIn the standard process of making type, a hard metal punch (made by punchcutting, with the letter carved back to front) is hammered into a softer copper bar, creating a matrix. This is then placed into a hand-held mould and a piece of type, or \"sort\", is cast by filling the mould with molten type-metal; this cools almost at once, and the resulting piece of type can be removed from the mould. The matrix can be reused to create hundreds, or thousands, of identical sorts so that the same character appearing anywhere within the book will appear very uniform, giving rise, over time, to the development of distinct styles of typefaces or fonts. After casting, the sorts are arranged into type-cases, and used to make up pages which are inked and printed, a procedure which can be repeated hundreds, or thousands, of times. The sorts can be reused in any combination, earning the process the name of “movable type”.\n\nThe invention of the making of types with punch, matrix and mold has been widely attributed to Gutenberg. However, recent evidence suggests that Gutenberg's process was somewhat different. If he used the punch and matrix approach, all his letters should have been nearly identical, with some variations due to miscasting and inking. However, the type used in Gutenberg's earliest work shows other variations.\n\n<figure>\n\t<blockquote>\n\t\t<p>It is a press, certainly, but a press from which shall flow in inexhaustible streams… Through it, god will spread his word.</p>\n\t\t<footer>\n\t\t\t<cite>—Johannes Gutenberg</cite>\n\t\t</footer>\n\t</blockquote>\n</figure>\n\nIn 2001, the physicist Blaise Agüera y Arcas and Princeton librarian Paul Needham, used digital scans of a Papal bull in the Scheide Library, Princeton, to carefully compare the same letters (types) appearing in different parts of the printed text. The irregularities in Gutenberg's type, particularly in simple characters such as the hyphen, suggested that the variations could not have come from either ink smear or from wear and damage on the pieces of metal on the types themselves. While some identical types are clearly used on other pages, other variations, subjected to detailed image analysis, suggested that they could not have been produced from the same matrix. Transmitted light pictures of the page also appeared to reveal substructures in the type that could not arise from traditional punchcutting techniques. They hypothesized that the method may have involved impressing simple shapes to create alphabets in “cuneiform” style in a matrix made of some soft material, perhaps sand. Casting the type would destroy the mould, and the matrix would need to be recreated to make each additional sort. This could explain the variations in the type, as well as the substructures observed in the printed images.\n\nThus, they feel that “the decisive factor for the birth of typography”, the use of reusable moulds for casting type, might have been a more progressive process than was previously thought. They suggest that the additional step of using the punch to create a mould that could be reused many times was not taken until twenty years later, in the 1470s. Others have not accepted some or all of their suggestions, and have interpreted the evidence in other ways, and the truth of the matter remains very uncertain.\n\nA 1568 history by Hadrianus Junius of Holland claims that the basic idea of the movable type came to Gutenberg from Laurens Janszoon Coster via Fust, who was apprenticed to Coster in the 1430s and may have brought some of his equipment from Haarlem to Mainz. While Coster appears to have experimented with moulds and castable metal type, there is no evidence that he had actually printed anything with this technology. He was an inventor and a goldsmith. However, there is one indirect supporter of the claim that Coster might be the inventor. The author of the Cologne Chronicle of 1499 quotes Ulrich Zell, the first printer of Cologne, that printing was performed in Mainz in 1450, but that some type of printing of lower quality had previously occurred in the Netherlands. However, the chronicle does not mention the name of Coster, while it actually credits Gutenberg as the \"first inventor of printing\" in the very same passage (fol. 312). The first securely dated book by Dutch printers is from 1471, and the Coster connection is today regarded as a mere legend.\n\nThe 19th century printer and typefounder Fournier Le Jeune suggested that Gutenberg might not have been using type cast with a reusable matrix, but possibly wooden types that were carved individually. A similar suggestion was made by Nash in 2004. This remains possible, albeit entirely unproven.\n\nIt has also been questioned whether Gutenberg used movable types at all. In 2004, Italian professor Bruno Fabbiani claimed that examination of the 42-line Bible revealed an overlapping of letters, suggesting that Gutenberg did not in fact use movable type (individual cast characters) but rather used whole plates made from a system somewhat like a modern typewriter, whereby the letters were stamped successively into the plate and then printed. However, most specialists regard the occasional overlapping of type as caused by paper movement over pieces of type of slightly unequal height.\n\n## Legacy\n\nAlthough Gutenberg was financially unsuccessful in his lifetime, the printing technologies spread quickly, and news and books began to travel across Europe much faster than before. It fed the growing Renaissance, and since it greatly facilitated scientific publishing, it was a major catalyst for the later scientific revolution.\n\nThe capital of printing in Europe shifted to Venice, where visionary printers like Aldus Manutius ensured widespread availability of the major Greek and Latin texts. The claims of an Italian origin for movable type have also focused on this rapid rise of Italy in movable-type printing. This may perhaps be explained by the prior eminence of Italy in the paper and printing trade. Additionally, Italy's economy was growing rapidly at the time, facilitating the spread of literacy. Christopher Columbus had a geographical book (printed by movable types) bought by his father. That book is in a Spanish museum. Finally, the city of Mainz was sacked in 1462, driving many (including a number of printers and punch cutters) into exile.\n\nPrinting was also a factor in the Reformation. Martin Luther's 95 Theses were printed and circulated widely; subsequently he issued broadsheets outlining his anti-indulgences position (certificates of indulgences were one of the first items Gutenberg had printed). The broadsheet contributed to development of the newspaper.\n\nIn the decades after Gutenberg, many conservative patrons looked down on cheap printed books; books produced by hand were considered more desirable.\n\nToday there is a large antique market for the earliest printed objects. Books printed prior to 1500 are known as incunabula.\n",
+        "contentDigest": "1fbf16a94c59d6172b08ea9f1ded7591",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "The Birth of Movable Type",
+        "date": "2016-03-01T22:12:03.284Z",
+        "layout": "post",
+        "path": "/The birth of movable type/",
+        "categories": [
+          "Typography"
+        ],
+        "description": "German inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible.<!--more-->",
+        "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/index.md"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/Javascript中的多态和继承.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/Javascript中的多态和继承.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/Javascript中的多态和继承.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Javascript中的多态和继承\"\ndate: \"2017-09-22T09:14:55.284Z\"\nlayout: post\npath: \"/Javascript中的多态和继承/\"\ncategories:\n  - Javascript\ndescription: \"从面向对象到多态和继承。<!--more-->\"\n---\n# 说点历史\n了解 JavaScript 的都知道，除了几个简单的数据类型，剩下的所有数据类型在 Javascript 中都是对象。之所以会这样，是因为 Js 诞生于面向对象思想最兴盛的时期。Js 之父 Brendan Eich 无疑受到了影响。\n\n面向对象的思想如此的火热，以至于出现了一些狂热的言论，如没用使用面向对象思想的程序都是过时的设计。这些言论当然是荒谬的，但不得不承认面向对象的变革推动了一些概念的流行。其中最重要的概念就是**封装**（将内部复杂性与外部接口切割开来)，而对象正是这一概念最鲜明的体现。\n\n有了封装，才有了多态和继承等概念，可见其重要性。\n<!-- more -->\n\n# 封装\n对象就像一个坚硬的外壳，它隐藏了其内部的复杂性，并提供给我们一些旋钮和接口（如方法）作为操作对象的接口。这一想法就是封装的具体体现。\n\n# 多态\n接口的多种不同的实现方法即为多态。\n\nJavaScript 中多态是通过**组合**和**虚函数**来实现的。构造函数接受函数作为参数，来自定义自己的接口。\n\n```Javascript\n//父对象\nfunction TextCell(text) {\n  this.text = text.split(\"\\n\");\n}\nTextCell.prototype.minWidth = function() {\n  return this.text.reduce(function(width, line) {\n    return Math.max(width, line.length);\n  }, 0);\n};\nTextCell.prototype.minHeight = function() {\n  return this.text.length;\n};\nTextCell.prototype.draw = function(width, height) {\n  var result = [];\n  for (var i = 0; i < height; i++) {\n    var line = this.text[i] || \"\";\n    result.push(line + repeat(\" \", width - line.length));\n  }\n  return result;\n};\n\n//子对象\nfunction UnderlinedCell(inner) {\n  this.inner = inner;\n}\nUnderlinedCell.prototype.minWidth = function() {\n  return this.inner.minWidth();\n};\nUnderlinedCell.prototype.minHeight = function() {\n  return this.inner.minHeight() + 1;\n};\nUnderlinedCell.prototype.draw = function(width, height) {\n  return this.inner.draw(width, height - 1)\n    .concat([repeat(\"-\", width)]);\n};\n\nvar underlinedCell = new UnderlinedCell(new TextCell(name));\n```\n\n如上，通过把 TextCell 对象传入 UnderlinedCell 构造函数进行组合。而像 minHeight、 minWidth 这类在父类和子类有不同实现的函数为虚函数。所以说 Js 中多态的实现靠组合和虚函数。\n\n## 继承\n当你像构造出与当前类型相似的类型时，可以通过继承来实现。\n\nJs 中的继承有多种实现，这里只介绍寄生组合式继承这一种。\n```Javascript\n// Shape - superclass\nfunction Shape() {\n  this.x = 0;\n  this.y = 0;\n}\n\n// superclass method\nShape.prototype.move = function(x, y) {\n  this.x += x;\n  this.y += y;\n  console.info('Shape moved.');\n};\n\n// Rectangle - subclass\nfunction Rectangle() {\n  Shape.call(this); // call super constructor.\n}\n\n// subclass extends superclass\nRectangle.prototype = Object.create(Shape.prototype);\nRectangle.prototype.constructor = Rectangle; // for rect instanceof Rectangle === true\n\nvar rect = new Rectangle();\n\nconsole.log('Is rect an instance of Rectangle?', rect instanceof Rectangle);// true\nconsole.log('Is rect an instance of Shape?', rect instanceof Shape);// true\nrect.move(1, 1); // Outputs, 'Shape moved.'\n```\n其实呢，我们天天在用的 array、object 的继承关系和上面的代码如出一辙，看下图，Shape 相当于 Object，Rectangle 相当 Array:\n\n<img height=\"200\" src=\"./1.png\" alt=\"Array\">\n<figcaption>Array和Object的继承关系</figcaption>\n",
+        "contentDigest": "70aa8e0a4cf8a15dfb228e4c067be38c",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Javascript中的多态和继承",
+        "date": "2017-09-22T09:14:55.284Z",
+        "layout": "post",
+        "path": "/Javascript中的多态和继承/",
+        "categories": [
+          "Javascript"
+        ],
+        "description": "从面向对象到多态和继承。<!--more-->",
+        "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/Javascript中的多态和继承.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/Javascript中的多态和继承.md"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/初识动态规划.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/初识动态规划.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/初识动态规划.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"初识动态规划\"\ndate: \"2017-09-16T23:07:30.284Z\"\nlayout: post\npath: \"/初识动态规划/\"\ncategories:\n  - 算法与数据结构\ndescription: \"最近在参见各大公司的笔试，发现动态规划的题目出现率很高，基本上还是第一题。所以，觉得有必要认真补一下。<!--more-->\"\n---\n# 动态规划的基本思想\n动态规划背后的基本思想非常简单。大致上，若要解一个给定问题，我们需要解其不同部分（即子问题），再合并子问题的解以得出原问题的解（这部分与分治法相似）。与分治法不同的是，适合于用动态规划求解的问题，经分解得到的子问题往往不是互相独立的。若用分治法来解这类问题，则分解得到的子问题数目太多，有些子问题被重复计算了很多次。\n\n通常许多子问题非常相似，为此动态规划法试图仅仅解决每个子问题一次，从而减少计算量：一旦某个给定子问题的解已经算出，则将其记忆化存储，以便下次需要同一个子问题解之时直接查表。这种做法在重复子问题的数目关于输入的规模呈指数增长时特别有用。在实际情况中，可以用一个表记录所有已解的子问题的答案。\n\n<!-- more -->\n\n# 动态规划的适用情况\n\n1. 最优子结构性质。如果问题的最优解所包含的子问题的解也是最优的，我们就称该问题具有最优子结构性质（即满足最优化原理）。最优子结构性质为动态规划算法解决问题提供了重要线索。\n\n2.  无后效性。即子问题的解一旦确定，就不再改变，不受在这之后、包含它的更大的问题的求解决策影响。\n\n3.  子问题重叠性质。子问题重叠性质是指在用递归算法自顶向下对问题进行求解时，每次产生的子问题并不总是新问题，有些子问题会被重复计算多次。动态规划算法正是利用了这种子问题的重叠性质，对每一个子问题只计算一次，然后将其计算结果保存在一个表格中，当再次需要计算已经计算过的子问题时，只是在表格中简单地查看一下结果，从而获得较高的效率。\n\n\n问题具有最优子结构性质，我们才能写出最优解的递归方程；具有重叠子问题特性，我们才能通过避免重复计算来减少运行时间。\n\n综上所述，动态规划的关键是 —— **记忆**，空间换时间，不重复求解，从较小问题解逐步决策，构造较大问题的解。\n\n# 实例\n\n## 斐波那契数列\n只用递归来实现：\n```Javascript\nvar fibonacci = function(n) {\n\treturn n < 2 ? n : fibonacci(n - 1) + fibonacci(n - 2);\n}\n```\n这种实现不会记录先前操作的结果，每次求值都会进行无谓的重复运算。通过给它添加记忆，来优化它的时间复杂度:\n```Javascript\nvar fibonacci = function () {\n\tvar memo = [1, 2];\n\tvar fib = function (n) {\n\t\tvar res = memor[n];\n\t\tif(typeof res !== 'number') {\n\t\t\tres = fib(n-1) + fib(n-2);\n\t\t\tmemo[n] = res;\n\t\t}\n\t\treturn res;\n\t};\n\treturn fib;\n}();\n```\n通过创建一个名为 memo 的数组，来保存子问题的结果。memo 保存在闭包中。当函数调用时，就会首先检查 memo 数组，如果已经存在，就直接返回结果。\n\n总之，这个例子很好的说明了动态规划的关键，即用空间换时间。\n\n## 01背包\n01 背包是动态规划中比较简单的一个问题。理解它，能清楚动态规划两个重要概念：状态和状态转移方程。\n\n假设编号分别为 a,b,c,d,e 的五件物品，重量分别是 2,2,6,5,4，价值分别是 6,3,5,4,6，现在有一个承重为 10 的背包，如何装入物品具有最大价值？\n\n### 思路分析\n首先我们来找状态。动态规划的一个重要思路就是把大问题分解成小问题。小问题除了规模更小，本质上还是相同的问题。我们可以从承重为 0 的背包开始，再逐渐增加到承重为 10 的背包。具体情况，结合下图讲解：\n\n<img height=\"300\" src=\"./1.jpg\" alt=\"01背包\">\n<figcaption>01背包</figcaption>\n\n当背包的体积为 2，行数为 2 时，求的是前两个物品 a,b 装入背包里能达到的最大值。当背包的体积为 8，行数为 5 时，求的是前 5 个物品装入背包能达到的最大值。有没有发现，以上句子都是一个句式。形式化的表示它们，定义 d(i,j)为前 i 个物品装到剩余体积为 j 的背包里能达到的最大值。那么上面两句即为：d(2,2)和 d(5,8)。这样看是不是简洁多了。这两个符号就是我们要找的状态，即**状态 d(i,j)为前 i 个物品装到剩余体积为 j 的背包里能达到的最大值。**\n\n上面那么多的文字，用一句话概括就是：根据子问题定义状态！ 你找到子问题， 状态也就浮出水面了。而我们最终要求解的最大价值即为 d(n, C)：前 n 个物品（0,1,2…,n-1）装入剩余容量为 C 的背包中的最大价值。状态好不容易找到了， 状态转移方程呢？ 顾名思义，状态转移方程就是描述状态是怎么转移的方程（好废话！）。\n\n要明白状态转移方程，你要明白上面的表格是这么填的。随便挑一个表格(a，9)，此时背包容量为 9，可以选 abcde 五种物品，我们要找出容量的最大值，对待每个物品的具体策略是放入物品 a 和不放入物品 a 这两种情况：\n- 情况 a: 假如放入物品 a, 则背包容量变为 9-2=7，还剩 b,c,d,e 四种物品。所以该情况下的最大值 = (b,7) + 物品 a 的价值 6，即 9+6。\n- 情况 b: 假如不放入物品 a, 背包容量不变为 9，还剩 b,c,d,e 四种物品。所以该情况下的最大值 = (b, 9)，即 10。\n\n所以现在(a, 9) = max( (b,7)+6, b(9) ) = max(9+6，10) = 15。max( (b,7)+6, b(9) )就是状态转移方程的具体体现。\n\n#### 代码实现\n```Javascript\nfunction packageMaxValue(weight, value, size) {\n\t// 省略参数合法性校验\n    let bagMatrix = []\n    for(let w = 0; w <= size; w++) {//size是背包的大小\n        // js不能直接创建二维数组，所以在此初始化数组\n        bagMatrix[w] = []\n        for (let j = 0; j < 5; j++) {\n            // 背包的容量为0，那么一个东西也装不下，此时的值肯定也是为0\n            if(w === 0) {\n                bagMatrix[w][j] = 0\n                continue\n            }\n            // 背包的容量小于物品j的重量，那么就没有上述情况a了\n            if(w < weight[j]){\n                bagMatrix[w][j] = bagMatrix[w][j-1] || 0\n                continue\n            }\n            bagMatrix[w][j] = Math.max((bagMatrix[w-weight[j]][j-1] || 0) + value[j], bagMatrix[w][j-1] || 0)\n        }\n    }\n    return bagMatrix\n}\n```\n参考链接：\n- [动态规划之背包问题（一）\n](http://www.hawstein.com/posts/dp-knapsack.html)\n- [js实现01背包问题](https://segmentfault.com/a/1190000006082676)\n",
+        "contentDigest": "81a9f322c0d13e833622f21237e2ab9a",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "初识动态规划",
+        "date": "2017-09-16T23:07:30.284Z",
+        "layout": "post",
+        "path": "/初识动态规划/",
+        "categories": [
+          "算法与数据结构"
+        ],
+        "description": "最近在参见各大公司的笔试，发现动态规划的题目出现率很高，基本上还是第一题。所以，觉得有必要认真补一下。<!--more-->",
+        "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/初识动态规划.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/初识动态规划.md"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/前端校招面试会考察什么.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/前端校招面试会考察什么.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/前端校招面试会考察什么.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"前端校招会考察什么——HTML篇\"\ndate: \"2017-09-22T14:12:03.284Z\"\nlayout: post\npath: \"/前端校招会考察什么（一）/\"\ncategories:\n  - FrontEnd\ndescription: \"参加了不少公司的笔试，工作却还没有着落。感觉是时候总结一下，为秋招的最后冲刺做准备。这篇文章只涉及HTML方面。<!--more-->\"\n---\n# 目录\n原本以为写不了多少，写着写着发现有很多内容。特地在这里列一下提纲。\n- HTML\n\t- 常用的 meta 头；\n\t\t- name\n\t\t- http-equiv\n\t- 对标签语义化的理解\n\t- HTML5 新特性\n\t\t- Html5 的基本布局（语义化的标记）。\n\t\t- Html5 对表单的支持\n\t\t- Html5 中的 Media\n\t\t- 动画元素 Canvas\n\t\t- Drag&Drop\n\t\t- Html 5 的 Application Cache\n\t\t- Local storge\n\n<!-- more -->\n\n# 核心思路\n校招面试和社招面试会有什么不同？ 借用一张图说明：\n\n<img height=\"200\" src=\"./2.png\" alt=\"校招和社招\">\n<figcaption>校招和社招</figcaption>\n\n校招面试侧重潜力考察。看了自己的简历，发现缺乏能证明自我潜力的项目，都是一些小项目，缺乏深度。那该怎么办，时间已经不多了！ 最近，我在看《Eloquentjavascript》，发现自己的基础不扎实，缺少代码量。如果硬着头皮写项目，写不出多有深度的作品。所以，还是准备先读完《Eloquentjavascript》，做完课后的习题再说。\n\n\n# 前端基础\n虽然清楚自己基础不扎实，但心里还是没有底。所以准备浏览一下前端的六个必备基础知识:**HTML、CSS、JavaScript、移动 Web 开发、调试、HTTP 网络知识**。看一下自己了解的怎么样。\n\n## HTML\n### 1.常用的meta\n讲真的，除了 viewport 和 charset,其他的 meta 都没印象。\n在网上找了[《HTML meta标签总结与属性使用介绍》](https://segmentfault.com/a/1190000004279791)这篇文章，仔细地浏览完，才知道 meta 是什么，和一些常用 meta 的意义。\n\nmeta 是用来描述数据的数据。它不会显示在页面上，但是浏览器，搜索引擎和其他网络服务可以识别。它主要用于定义页面的说明、关键字，最后修改的日期和其他元数据。\n\nmeta 标签共有两个属性，分别是**http-equiv 属性**和**name 属性**。\n\n#### 1.1 name\nname 属性主要用于描述网页，比如网页的关键词，叙述等。与之对应的属性值为 content，content 中的内容是对 name 填入类型的具体描述，便于搜索引擎抓取。\nmeta 标签中 name 属性语法格式是：\n```HTML\n<meta name=\"参数\" content=\"具体的描述\">。\n```\nname 的常见参数有 keywords,description,viewport,robots(定义搜索引擎爬虫的索引方式),author,generator(用于标明网页是什么软件做的),copyright(版权),revisit-after(搜索引擎爬虫重访时间)和 renderer(双核浏览器渲染方式)。\n\n#### 1.2 http-equiv\nequiv 的全称是\"equivalent\",在这里的意思是相当于。http-equiv 的完整意思是相当于 HTTP 的作用,比如说定义一些 HTTP 参数。\n\nmeta 标签中 http-equiv 属性语法格式是：\n```HTML\n<meta http-equiv=\"参数\" content=\"具体的描述\">\n```\n\nhttp-equivd 的属性主要有 X-UA-Compatible(浏览器采取何种版本渲染当前页面)，cache-control(指定请求和响应遵循的缓存机制），expires(网页到期时间)，refresh(自动刷新并指向某页面)和 Set-Cookie(Cookie 设定)。\n\n关于设定网页字符集，推荐使用 HTML5 的方式：\n```HTML\n<meta charset=\"utf-8\">\n```\n\n现在，才知道 meta 的自定义属性有这么多，有些属性竟然涉及到 SEO 和 HTTP 协议。总之，感谢作者的付出。不过关于 cache-control 的介绍并没有深入，如定义最佳 cache-control 策略。毕竟文章主要是讲 meta，扯的太多，容易使主旨不明确。\n之后，我会自己写篇博文介绍一下网站优化。\n\n---\n\n### 2.标签语义化\n又发现一个不懂的知识点。\n\n首先，我们要搞清楚为什么需要标签语义化。因为人们想要对 web 上的内容作各种处理和挖掘，所以让机器能够更好地读懂 Web 上发布的各种内容就变得越来越重要。\n\n那如何让机器理解网页上的内容？ 主要有两种途径：\n- 让机器人的理解能力赶上人类，也就是发展人工智能。\n- 我们应该在发布内容的时候，就用机器可读的、被广泛认可的语义信息来描述内容，来降低机器处理 Web 内容的难度（HTML 本身就已经是朝这个方向迈出的一小步了）。\n\n第一种途径是关于人工智能。第二中途径正是万维网创始人 Tim Berners-Lee 爵士提出的美好愿景：语义网。简单来说就是让一切内容和包括对关系的描述都成为 Web 上的资源，都可以由唯一的 URI 定义，语义明确、机器可读。显然，两天路都不好走。而标签语义化正是第二条途径上的一小步。\n\n其实，HTML 一直在往语义化的方向上努力，许多元素、属性在设计的时候，就已经考虑了如何让各种用户代理甚至网络爬虫更好地理解 HTML 文档。HTML5 更是在之前规范的基础上，将所有表现层（presentational）的语义描述都进行了修改或者删除，增加了不少可以表达更丰富语义的元素。现在就等这些标准被广泛地接受，才能使这些语义元素有意义。\n\n参考链接：\n- [如何理解Web语义化](https://www.zhihu.com/question/20455165)\n- [强烈推荐：https://github.com/Justineo/slideshows](https://github.com/Justineo/slideshows)\n\n---\n\n### 3.HTML5新特性\n这方面的知识面也是东拼西凑出来的，是时候总结一下了。\n\n#### 3.1 Html5的基本布局（语义化的标记）\n首先要说的就是语义化标签了。对语义化标签的详细说明可以看我在上一节给出的 GitHub 链接。只写一段具体实现：\n```Html\n<!DOCTYPE html>\n<html>\n\t<title>标题</title>\n\t<nav>导航</nav>\n\t<article>标签则应该是用来放置诸如一篇文章或是博客一类的信息\n\t\t<section>标签用来分组相类似的信息</section>\n\t</article>\n\t<aside>侧边栏</aside>\n\t<footer>页脚<footer>\n</html>\n```\n#### 3.2 Html5对表单的支持\nHtml5 新增了多个控件类型，如输入网址的 url 类型，输入电子邮箱地址的 email 类型，用于输入日期的 date 类型，更有用于输入颜色的 color 类型等等。更为神奇的是这些类型还内建表单验证，如 required 属性就说明该表项不能为空，max 属性提供了该表项输入允许的最大值，当然在 html4 中这些功能也可以通过 JavaScript 来实现，但是的内建在 html5 中的表单验证优越性不言而喻。需要注意的是，现在 Html5 的输入类型还没有被所有浏览器所支持。\n代码：\n```html\n<form>\n    Email:<input type=\"email\" required /></br>\n    Number:<input type=\"number\" max=\"10\" /></br>\n    Date :<input type=\"date\"></br>\n    File:<input type=\"file\" accept=\"image/png\" /></br>\n    <input type=\"submit\">\n</form>\n```\n#### 3.3 Html5中的Media\nHtml5 的另一大特点就是不借助其他插件就可播放视频和音频文件。具体地实现，要考虑视频文件格式的版权问题,各大浏览器不能做到全部支持，所以代码要这样写：\n```Html\n<vedio>\n\t<source src=\"movie.mp4\">\n\t<source src=\"movie.ogv\">\n\t<object data=\"movie.swf\">\n\t\t<a href=\"movie.mp4\">Download</a>\n\t</object>\n</vedio>\n```\n<object> 元素（或者称作 HTML 嵌入对象元素）表示引入一个外部资源，这个资源可能是一张图片，一个嵌入的浏览上下文，亦或是一个插件所使用的资源。data 属性的值是一个合法的 URL 作为资源的地址\n\n#### 3.4 动画元素Canvas\nHTML5 的 canvas 元素可以使用 JavaScript 直接在网页上绘制图像\n#### 3.5 Drag&Drop\nHTML5 为元素新增了用于拖拽的属性 draggable，这个属性决定了元素是否能被拖拽， 如果 draggable=”true”，则元素可被拖拽，否则只能选择元素的文本。下面几行简单的代码可以简单的说明 Html5 的 Drag&Drop 特性：\n```Html\n<section>\n\t<p draggable=\"true\" ondragstart=\"dragstartHandler(event)\">\n\tDrag me!Drag me!!</p>\n\t<p draggable=\"false\">Don’t drag me!!</p>\n</section>\n```\n#### 3.6 Html 5的Application Cache\n现在 web app 有多火，相信大家都知道。但是 web 应用依赖网络，而网络不是随时都有的。Html5 的离线存储使得这个问题迎刃而解。HTML5 的 web storage API 采用了离线缓存，会生成一个清单文件（manifest file），这个清单文件实质就是一系列的 URL 列表文件，这些 URL 分别指向页面当中的 HTML,CSS,Javascrpit,图片等相关内容。\n\n一个 Mainfest file 实例：\n```\n–  CACHE MANIFEST\n   /demo/test/style.css\n   /demo/test/jquery.min.js\n   /demo/test/test.html\n```\n当使用离线应用时，应用会引入这一清单文件，浏览器读取这一文件，下载相应的文件，并将其缓存到本地。使得这些 web 应用能够脱离网络使用，而用户在离线时的更改也同样会映射到清单文件中，并在重新连线之后将更改返回应用，工作方式与我们现在所使用的网盘有着异曲同工之处。\n\n#### 3.7 localStorage\nlocalStorage 用于持久化的本地存储，除非主动删除数据，否则数据是永远不会过期的。\n\n参考链接：\n- [Html5新特性概览](https://www.pureweber.com/article/html5/)\n",
+        "contentDigest": "cf452c0ed01136ee94d05f3850ed4df1",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "前端校招会考察什么——HTML篇",
+        "date": "2017-09-22T14:12:03.284Z",
+        "layout": "post",
+        "path": "/前端校招会考察什么（一）/",
+        "categories": [
+          "FrontEnd"
+        ],
+        "description": "参加了不少公司的笔试，工作却还没有着落。感觉是时候总结一下，为秋招的最后冲刺做准备。这篇文章只涉及HTML方面。<!--more-->",
+        "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/前端校招面试会考察什么.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/前端校招面试会考察什么.md"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/人工智能狂潮摘记/《人工智能狂潮》摘记.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/人工智能狂潮摘记/《人工智能狂潮》摘记.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/人工智能狂潮摘记/《人工智能狂潮》摘记.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"《人工智能狂潮》摘记\"\ndate: \"2017-05-23T09:35:25.284Z\"\nlayout: post\npath: \"/人工智能狂潮摘记/\"\ncategories:\n  - 探索未来\ndescription: \"人工智能，机器学习，深度学习，这三个东西到底是什么？它们之间有什么联系？<!--more-->\"\n---\n# 什么是人工智能？\n专家观点：尚未统一。作者的定义是，人工智能是“用人工方法制作的类人智能”，类人智能指的是具有“发现和觉察功能”的计算机，即能够从数据中生成特征量，并对相关现象进行模型化处理的计算机。\n\n## 人工智能的发展历史\n人工智能的研究是从以“推理”为重点到以“知识”为重点，再到以“学习”为重点，一条自然、清晰的脉络。\n\n<!-- more -->\n\n## 第一次人工智能狂潮的局限（20世纪60年代）\n计算机只能解决所谓的“玩具问题”。求解迷宫问题，挑战国际象棋及将棋，这些都只需要在明确定义好的规则中考虑下一步如何走起即可，然而，现实生活中的问题却要复杂得多。\n\n## 第二次人工智能狂潮的局限（20世纪80年代末）\n#### 永无穷尽的知识\nExample:\n\n\tHe saw a woman in the garden with a telescope.\n\n理解这句话，需要一般性的常识。而计算机要处理一般性的常识，就需要掌握人类所拥有的，永运也无法写尽的海量知识，这是极其困难的。因为\n，同样的事情在所有的各种各样的场合皆会发生。\n\n它用望眼镜看到一个女人在花园呢？ 还是他在公园用望眼镜看到一个女人？\n\n#### 框架问题\n框架问题，就是执行某项任务时“仅仅提取出与它相关的知识并对其加以运用”，这对人类来说简单的事，但对计算机来说是困难无比的。\n> [认识框架问题](http://sourcedb.cas.cn/sourcedb_scr_cas/zwqkk/kxwhzl/kxzx/200912/t20091226_2718491.html)\n#### 符号接地问题\n是否能将符号（词语,语言）与它所表示的意义连接起来。\n\n> 日本在1982年启动了名为“第五代计算机”的国家级项目，从1982年开始前后跨越了10年，总共投入了570亿日元。尽管没有实现预定目标，但是它聚集了人工智能研究的优秀人才，还吸引了众多的海外知名专家，并由此建立了相关的人才联系网络。\n\n<!-- more -->\n\n## 第三次人工智能狂潮（机器学习，深度学习）\n### 机器学习\n\n机器学习，一种实现人工智能的方法。\n\n它是使用算法来分析数据的实践、学习，然后对真实的事件作出决定或预测。而不是用一组特定的指令生成的硬编码软件程序来解决特定任务。机器是通过使用大量的数据和算法来「训练」，这样就给了它学习如何执行任务的能力。\n\n#### 机器学习的难点\n机器学习最关键的地方是如何把一个把原始数据转变成特征量。这些特征量可以很好的描述这些数据，并且利用它们建立的模型在未知数据上的表现性能可以达到最优（或者接近最佳性能）。从数学的角度来看，特征工程就是人工地去设计输入变量 X。\n\n可惜的是特征量的设计必须由人来做。\n> 特征量，指的是机器学习在输入时所使用的变量，其值是对对象特征的定量表示。\n\n#### 深度学习\nWiki 上的解释：\n> 深度学习（英语：deep learning）是机器学习拉出的分支，它试图使用包含复杂结构或由多重非线性变换构成的多个处理层对数据进行高层抽象的算法。\n\n深度学习， 一种实现机器学习的技术。它能自己产生特征量。其实回过头看，人工智能的发展其实是给予机器越来越抽象的基本信息。\n\n至于深度学习的实现过程，我其实也是模模糊糊。等有深入了解后，再来改进这篇文章。\n",
+        "contentDigest": "f8fcd15bcc8ffc3f7cad6f82c6fb0f24",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "《人工智能狂潮》摘记",
+        "date": "2017-05-23T09:35:25.284Z",
+        "layout": "post",
+        "path": "/人工智能狂潮摘记/",
+        "categories": [
+          "探索未来"
+        ],
+        "description": "人工智能，机器学习，深度学习，这三个东西到底是什么？它们之间有什么联系？<!--more-->",
+        "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/人工智能狂潮摘记/《人工智能狂潮》摘记.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/人工智能狂潮摘记/《人工智能狂潮》摘记.md"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/Printing-press.png absPath of file >> ImageSharp": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/Printing-press.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/Printing-press.png absPath of file",
+      "internal": {
+        "contentDigest": "9ec265253f068855f00558a9be7f3e03",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/movable-type.jpg absPath of file": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/movable-type.jpg absPath of file",
+      "children": [
+        "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/movable-type.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0d1540b9a8fca9db753ad10ae0a3427e",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/movable-type.jpg",
+      "relativePath": "articles/The birth of movable type/movable-type.jpg",
+      "extension": "jpg",
+      "size": 1881547,
+      "prettySize": "1.88 MB",
+      "modifiedTime": "2017-09-27T09:06:06.000Z",
+      "accessTime": "2017-09-29T08:43:48.000Z",
+      "changeTime": "2017-09-27T09:06:06.000Z",
+      "birthTime": "2017-09-27T09:06:06.000Z",
+      "root": "/",
+      "dir": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type",
+      "base": "movable-type.jpg",
+      "ext": ".jpg",
+      "name": "movable-type",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14371439,
+      "blocks": 3680,
+      "atimeMs": 1506674628000,
+      "mtimeMs": 1506503166000,
+      "ctimeMs": 1506503166000,
+      "birthtimeMs": 1506503166000,
+      "atime": "2017-09-29T08:43:48.000Z",
+      "mtime": "2017-09-27T09:06:06.000Z",
+      "ctime": "2017-09-27T09:06:06.000Z",
+      "birthtime": "2017-09-27T09:06:06.000Z"
+    },
+    "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/movable-type.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/movable-type.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/movable-type.jpg absPath of file",
+      "internal": {
+        "contentDigest": "0d1540b9a8fca9db753ad10ae0a3427e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "layout": "index",
+      "jsonName": "offline-plugin-app-shell-fallback.json",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "updatedAt": 1506675442953,
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f1f715c95d09334d77a0170c1f916733",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /The birth of movable type/": {
+      "path": "/The birth of movable type/",
+      "component": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/templates/blog-post.js",
+      "context": {
+        "path": "/The birth of movable type/"
+      },
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "layout": "index",
+      "jsonName": "the-birth-of-movable-type.json",
+      "internalComponentName": "ComponentTheBirthOfMovableType",
+      "updatedAt": 1506675442996,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/templates/blog-post.js",
+      "id": "SitePage /The birth of movable type/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "692bbc260160465c179538aa05112520",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /Javascript中的多态和继承/": {
+      "path": "/Javascript中的多态和继承/",
+      "component": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/templates/blog-post.js",
+      "context": {
+        "path": "/Javascript中的多态和继承/"
+      },
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "layout": "index",
+      "jsonName": "javascript中的多态和继承.json",
+      "internalComponentName": "ComponentJavascript中的多态和继承",
+      "updatedAt": 1506675442997,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/templates/blog-post.js",
+      "id": "SitePage /Javascript中的多态和继承/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "77d87260e1f9c3bcdcfd1c2385d0befe",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /初识动态规划/": {
+      "path": "/初识动态规划/",
+      "component": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/templates/blog-post.js",
+      "context": {
+        "path": "/初识动态规划/"
+      },
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "layout": "index",
+      "jsonName": "初识动态规划.json",
+      "internalComponentName": "Component初识动态规划",
+      "updatedAt": 1506675442998,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/templates/blog-post.js",
+      "id": "SitePage /初识动态规划/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9da7eee116ef5f23a972f81e87bb4ac7",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /前端校招会考察什么（一）/": {
+      "path": "/前端校招会考察什么（一）/",
+      "component": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/templates/blog-post.js",
+      "context": {
+        "path": "/前端校招会考察什么（一）/"
+      },
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "layout": "index",
+      "jsonName": "前端校招会考察什么（一）.json",
+      "internalComponentName": "Component前端校招会考察什么（一）",
+      "updatedAt": 1506675442998,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/templates/blog-post.js",
+      "id": "SitePage /前端校招会考察什么（一）/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8ab9ba50b31a6a2dcff7b8a43b5e9ddc",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /人工智能狂潮摘记/": {
+      "path": "/人工智能狂潮摘记/",
+      "component": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/templates/blog-post.js",
+      "context": {
+        "path": "/人工智能狂潮摘记/"
+      },
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "layout": "index",
+      "jsonName": "人工智能狂潮摘记.json",
+      "internalComponentName": "Component人工智能狂潮摘记",
+      "updatedAt": 1506675442999,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/templates/blog-post.js",
+      "id": "SitePage /人工智能狂潮摘记/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d78b3646cf52a7f3f85eb9067755db0b",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "path": "/",
+      "component": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "updatedAt": 1506675443013,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d1bc59cba0a11765acd34f82d5c8423a",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /categories/": {
+      "path": "/categories/",
+      "component": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/categories/index.jsx",
+      "componentChunkName": "component---src-pages-categories-index-jsx",
+      "layout": "index",
+      "jsonName": "categories.json",
+      "internalComponentName": "ComponentCategories",
+      "updatedAt": 1506675443017,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/categories/index.jsx",
+      "id": "SitePage /categories/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "082b6722ed8e310737df40b0f0316d6a",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /profile/": {
+      "path": "/profile/",
+      "component": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/profile/index.jsx",
+      "componentChunkName": "component---src-pages-profile-index-jsx",
+      "layout": "index",
+      "jsonName": "profile.json",
+      "internalComponentName": "ComponentProfile",
+      "updatedAt": 1506675443022,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/profile/index.jsx",
+      "id": "SitePage /profile/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "33887c194c5024a95f2b83dd09183a2f",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "48229680817ab696b58f708f187d4d9e"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "/The birth of movable type/",
+        "/Javascript中的多态和继承/",
+        "/初识动态规划/",
+        "/前端校招会考察什么（一）/",
+        "/人工智能狂潮摘记/",
+        "/",
+        "/categories/"
+      ],
+      "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/The birth of movable type/index.md absPath of file >>> MarkdownRemark": [
+        "/The birth of movable type/"
+      ],
+      "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/Javascript中的多态和继承/Javascript中的多态和继承.md absPath of file >>> MarkdownRemark": [
+        "/Javascript中的多态和继承/"
+      ],
+      "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/初识动态规划/初识动态规划.md absPath of file >>> MarkdownRemark": [
+        "/初识动态规划/"
+      ],
+      "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/前端校招会考察什么（一）/前端校招面试会考察什么.md absPath of file >>> MarkdownRemark": [
+        "/前端校招会考察什么（一）/"
+      ],
+      "/Users/fourfish/Desktop/gatsby-starter-bootstrap/src/pages/articles/人工智能狂潮摘记/《人工智能狂潮》摘记.md absPath of file >>> MarkdownRemark": [
+        "/人工智能狂潮摘记/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/",
+        "/categories/"
+      ]
+    }
+  }
+}
