@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import get from 'lodash/get';
-import LazyLoad from 'react-lazyload'
 
 import SitePost from '../../components/SitePost'
 
@@ -27,11 +26,7 @@ class Categories extends React.Component {
 			categories.forEach((cat, index) => {
 				if(cate == cat) {
 					Links.push(
-						// <li key={index}><Link to={path}>{title}</Link></li>
-
-						<LazyLoad height={500} offset={800} key={index}>
-							<SitePost data={data.post} site={site} isIndex={true} key={index} />
-						</LazyLoad>
+						<SitePost data={data.post} site={site} isIndex={true} key={index} />
 					)
 				}
 			});
@@ -44,7 +39,7 @@ class Categories extends React.Component {
 
 	createCategory(i, state) {
 		return (
-			<li key={i} style={{"margin-top": "8px"}}>
+			<li key={i} style={{marginTop: "8px"}}>
 				<span
 					onClick={this.handleClick.bind(this,i)}
 					className="badge badge-primary text-white"
