@@ -21,9 +21,7 @@ class BlogIndex extends React.Component {
       const path = get(data, 'post.path')
       if (layout === 'post' && path !== '/404/') {
         pageLinks.push(
-          <div  key={i} style={{marginBottom: "36px"}}>
-              <SitePost data={data.post} site={site} isIndex={true} key={i} />
-          </div>
+          <SitePost data={data.post} site={site} isIndex={true} key={i} />
         )
       }
     })
