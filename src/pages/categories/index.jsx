@@ -43,7 +43,7 @@ class Categories extends React.Component {
 
   createCategory(i, state) {
     return (
-      <li key={i} style={{ marginTop: '8px' }}>
+      <li key={i} style={{ margin: '8px', float: 'left' }}>
         <span
           onClick={this.handleClick.bind(this, i)}
           className="badge badge-primary text-white"

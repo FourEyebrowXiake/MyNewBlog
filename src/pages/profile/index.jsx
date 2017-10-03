@@ -15,10 +15,7 @@ class Profile extends React.Component {
             />
             <h1>四条眉毛</h1>
             <div>
-              <a
-                href="https://www.zhihu.com/people/fish-86-23/activities"
-                data-show-count="false"
-              >
+              <a href="https://www.zhihu.com/people/fish-86-23/activities">
                 Follow me in Zhihu
               </a>
             </div>
@@ -141,6 +138,14 @@ class Profile extends React.Component {
                 <h2 className="section-heading">Repositories</h2>
               </div>
               <div className="col-md-6 text-left">
+                <li>
+                  <a
+                    href="https://github.com/FourEyebrowXiake/MyNewBlog"
+                    style={{ color: 'white' }}
+                  >
+                    四条眉毛的博客
+                  </a>
+                </li>
                 <li>
                   <a
                     href="https://github.com/FourEyebrowXiake/PostList"
