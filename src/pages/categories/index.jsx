@@ -25,12 +25,7 @@ class Categories extends React.Component {
       categories.forEach((category_, index_) => {
         if (category == category_) {
           Links.push(
-            <SitePost
-              data={data.post}
-              site={site}
-              isIndex={true}
-              key={index * 10 + index_}
-            />
+            <SitePost data={data.post} site={site} isIndex={true} key={path} />
           )
         }
       })
@@ -60,11 +55,11 @@ class Categories extends React.Component {
     const category = []
     posts.forEach((data, i) => {
       const categories = get(data, 'post.frontmatter.categories')
-      categories.forEach((cat, i) => {
-        if (!state[cat]) {
-          state[cat] = 1
+      categories.forEach((category_, i) => {
+        if (!state[category_]) {
+          state[category_] = 1
         } else {
-          state[cat]++
+          state[category_]++
         }
       })
     })

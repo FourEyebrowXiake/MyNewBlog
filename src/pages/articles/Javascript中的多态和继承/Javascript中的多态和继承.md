@@ -4,7 +4,7 @@ date: "2017-09-22T09:14:55.284Z"
 layout: post
 path: "/Javascript中的多态和继承/"
 categories:
-  - Javascript
+  - JavaScript
 description: "从面向对象到多态和继承。<!--more-->"
 ---
 # 说点历史

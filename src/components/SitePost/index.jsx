@@ -35,7 +35,7 @@ class SitePost extends React.Component {
     const categories = []
     data.forEach((category, i) => {
       categories.push(
-        <span className="badge badge-primary text-white" key={i}>
+        <span className="badge badge-primary text-white" key={category}>
           {category}
         </span>
       )
