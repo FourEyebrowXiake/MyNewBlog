@@ -27,10 +27,12 @@ class SiteNavi extends React.Component {
               </li>
               <li
                 className={
-                  location.pathname === '/' ? 'nav-item active' : 'nav-item'
+                  location.pathname === '/categories/'
+                    ? 'nav-item active'
+                    : 'nav-item'
                 }
               >
-                <Link to="/categories" className="nav-link">
+                <Link to="/categories/" className="nav-link">
                   Categories
                 </Link>
               </li>
