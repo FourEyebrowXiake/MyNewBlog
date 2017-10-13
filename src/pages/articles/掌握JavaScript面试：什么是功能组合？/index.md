@@ -206,7 +206,7 @@ console.log(toSlug('JS Cheerleader'));
 // 'js-cheerleader'
 ```
 
-其实，trace()是 tap()的特殊形式。它可以让你对流过管道的每个值执行一些行为。明白了么？ 管道（Pipe）？水龙头(Tap)？可以像下面这样编写 tap()：
+其实，trace()是 tap()的特殊形式。它可以让你对流过管道的每个值执行一些行为。明白了么？　管道（Pipe）？　水龙头(Tap)？ 可以像下面这样编写 tap()：
 
 ```JavaScript
 const tap = curry((fn, x) => {

@@ -5,7 +5,7 @@ layout: post
 path: "/Arindam Paul's Speech/"
 categories:
   - JavaScript
-description: "自己闷着头看书学习，不和别人交流是不行的。尤其是对到现在还没找到工作的我，感触颇深。所以，花时间看了这个演讲。英文比较差，看了好几篇，理解可能还有错误，希望你别太信息我的话。<!--more-->"
+description: "自己闷着头看书学习，不和别人交流是不行的。尤其是对到现在还没找到工作的我，感触颇深。所以，花时间看了这个演讲。英文比较差，看了好几篇，理解可能还有错误，希望你别太相信我的话。<!--more-->"
 ---
 # ScopeChains
 <img height="300" src="./ScopeChains.png" alt="第一题">
