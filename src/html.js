@@ -1,26 +1,26 @@
-import React from 'react'
-import Helmet from 'react-helmet'
+import React from "react";
+import Helmet from "react-helmet";
 
-let stylesStr
-if (process.env.NODE_ENV === 'production') {
+let stylesStr;
+if (process.env.NODE_ENV === "production") {
   try {
-    stylesStr = require('!raw-loader!../public/styles.css')
+    stylesStr = require("!raw-loader!../public/styles.css");
   } catch (e) {
-    console.log(e)
+    console.log(e);
   }
 }
 
 export default class HTML extends React.Component {
   render() {
-    const head = Helmet.rewind()
-    let css
-    if (process.env.NODE_ENV === 'production') {
+    const head = Helmet.rewind();
+    let css;
+    if (process.env.NODE_ENV === "production") {
       css = (
         <style
           id="gatsby-inlined-css"
           dangerouslySetInnerHTML={{ __html: stylesStr }}
         />
-      )
+      );
     }
 
     return (
@@ -42,10 +42,8 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
-          <script async src="//buttons.github.io/buttons.js" />
-          <script async src="//platform.twitter.com/widgets.js" />
         </body>
       </html>
-    )
+    );
   }
 }

@@ -1,44 +1,42 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import get from 'lodash/get'
+import React from "react";
+import Link from "gatsby-link";
+import get from "lodash/get";
 
-import SitePost from '../../components/SitePost'
-
-import './style.scss'
+import SitePost from "../../components/SitePost";
 
 class Categories extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
 
     this.state = {
-      linkArray: [],
-    }
+      linkArray: []
+    };
   }
 
   handleClick(category) {
-    var Links = []
-    const posts = get(this, 'props.data.remark.posts')
-    const site = get(this, 'props.data.site.siteMetadata')
+    var Links = [];
+    const posts = get(this, "props.data.remark.posts");
+    const site = get(this, "props.data.site.siteMetadata");
     posts.forEach((data, index) => {
-      const path = get(data, 'post.frontmatter.path')
-      const categories = get(data, 'post.frontmatter.categories')
+      const path = get(data, "post.frontmatter.path");
+      const categories = get(data, "post.frontmatter.categories");
       categories.forEach((category_, index_) => {
         if (category == category_) {
           Links.push(
             <SitePost data={data.post} site={site} isIndex={true} key={path} />
-          )
+          );
         }
-      })
-    })
+      });
+    });
 
     this.setState({
-      linkArray: Links,
-    })
+      linkArray: Links
+    });
   }
 
   createCategory(i, state) {
     return (
-      <li key={i} style={{ margin: '8px', float: 'left' }}>
+      <li key={i} style={{ margin: "8px", float: "left" }}>
         <span
           onClick={this.handleClick.bind(this, i)}
           className="badge badge-primary text-white"
@@ -46,50 +44,54 @@ class Categories extends React.Component {
           {i} {state[i]}
         </span>
       </li>
-    )
+    );
   }
 
   render() {
-    var state = {}
-    const posts = get(this, 'props.data.remark.posts')
-    const category = []
+    var state = {};
+    const posts = get(this, "props.data.remark.posts");
+    const category = [];
     posts.forEach((data, i) => {
-      const categories = get(data, 'post.frontmatter.categories')
+      const categories = get(data, "post.frontmatter.categories");
       categories.forEach((category_, i) => {
         if (!state[category_]) {
-          state[category_] = 1
+          state[category_] = 1;
         } else {
-          state[category_]++
+          state[category_]++;
         }
-      })
-    })
+      });
+    });
 
     for (var i in state) {
-      if (state.hasOwnProperty(i)) {
-        category.push(this.createCategory(i, state))
-      }
+      category.push(this.createCategory(i, state));
     }
 
     return (
-      <div className="category">
-        <section>
-          <ul>{category}</ul>
-        </section>
+      <div className="fill-viewport">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12">
-              <h2 className="section-heading">LIST</h2>
-              <hr className="border-primary" />
+            <div className="col">
+              <ul className="list-unstyled">{category}</ul>
             </div>
           </div>
         </div>
-        {this.state.linkArray}
+        <section>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <h2 className="section-heading text-center">POST</h2>
+                <hr className="border-primary" />
+              </div>
+            </div>
+          </div>
+          {this.state.linkArray}
+        </section>
       </div>
-    )
+    );
   }
 }
 
-export default Categories
+export default Categories;
 
 export const categoriesQuery = graphql`
   query CategoriesQuery {
@@ -97,9 +99,7 @@ export const categoriesQuery = graphql`
       siteMetadata {
         title
         description
-        url
         author
-        twitter
       }
     }
     remark: allMarkdownRemark {
@@ -117,4 +117,4 @@ export const categoriesQuery = graphql`
       }
     }
   }
-`
+`;

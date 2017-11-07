@@ -35,6 +35,7 @@
     "react-typography": "^0.16.5"
   },
   "devDependencies": {
+    "@dschau/create-gatsby-blog-post": "^1.1.0",
     "animate.css": "^3.5.2",
     "babel-eslint": "^8.0.0",
     "devicon": "https://github.com/konpa/devicon.git#v2.2",
